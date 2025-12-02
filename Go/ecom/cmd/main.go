@@ -17,7 +17,7 @@ func main() {
 	slog.SetDefault(logger)
 	handler := api.mount()
 	if err := api.run(handler); err != nil {
-		slog.Error("server has failed to start, err: %s")
+		slog.Error("server has failed to start, err")
 		os.Exit(1)
 	}
 }
