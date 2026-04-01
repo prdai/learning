@@ -24,7 +24,7 @@ MarkupSafe==2.1.5
 mdurl==0.1.2
 multidict==6.0.5
 openai==0.28.0
-orjson==3.10.3
+orjson==3.11.6
 pillow==10.3.0
 pydantic==2.7.3
 pydantic_core==2.18.4
